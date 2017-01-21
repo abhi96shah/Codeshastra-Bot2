@@ -1,6 +1,7 @@
 var http=require('http');
 var fs=require('fs');
 
+
 function send404(response){
 	response.writeHead(404, {"Context-Type": "text/plain"});
 	response.write("<h1>Error 404: Site Not Found!</h1>");
