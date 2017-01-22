@@ -1,0 +1,17 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Text to Speech</title>
+</head>
+<body>
+<script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<textarea id="text" cols="45" rows="10"></textarea>
+<br>
+<input 
+  onclick="responsiveVoice.speak($('#text').val(),'Hindi Female');"
+  type="button" 
+  value="Play" 
+/>
+</body>
+</html>
